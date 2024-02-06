@@ -14,15 +14,16 @@ Body {
     cursor: pointer;
   }
   form{
-    border: 3px solid #f1f1f1;
+    border: 1px solid #f1f1f1;
   }
   input[type=text], input[type=password]{
     width: 100%;
     margin: 8px 0;
     padding: 12px 20px;
     display: inline-block;
-    border: 2px solid rgb(15, 15, 15); 
-    box-sizing: border-box;   
+    border: 1px solid rgb(15, 15, 15); 
+    box-sizing: border-box; 
+    background-color: rgb(245, 236, 236);  
   }
   button:hover {   
     opacity: 0.9;   
